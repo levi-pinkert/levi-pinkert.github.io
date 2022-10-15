@@ -5,26 +5,28 @@ const description = `
 `;
 
 const markdown = `
-This game placed 245th out of 6,136 submissions in GMTK Game Jam 2022. The theme was "Roll the Dice",
-so we created a game where you kill evil dice with funny hats. You have a different weapon for each side
-of the die, and you have to use those weapons tactially to maximize your potential.
+This game placed **245th** out of **6,136** submissions in GMTK Game Jam 2022.
+The theme was "Roll the Dice", so we created a totally chaotic action game where you kill dice.
+You use a different weapon depending on the side of the die you hit, which forces you to strategize and react.
 ### Development
-This game was made in 48 hours by three people.
-We all worked together to come up with the design.
-Me and one teammate did all the code in Game Maker Studio, and the other teammate made the art.
+I created the game with [Will Farhat](https://www.willfarhat.com) and Charlie Heatherly.
+Will and I coded the game in Game Maker Studio while Charlie created the art.
+We took the game from conception to completion in just 48 hours.
 ### Art
-This game has a unique psuedo-3d art style. The code treats the game as 2D.
-The objects are made of 2D images stacked closely on top of each other.
-When all the images rotate together, the object appears to be 3D.
+This game has a unique psuedo-3D art style. Under the hood, everything is really just 2D.
+However, we render the objects by stacking a bunch of 2D images on top of each other.
+When all these images rotate together, they create the illusion of a 3D object.
+Other details, like giving the objects a fake shadow, really sell the effect.
 ### How to Play
-Use W, A, S, and D to move\n
+Use **WASD** to move\n
 ![How to move](/GameImages/moveTutorial.gif)\n
-Use left click on a dice to attack it. The attack will be different depending on the side you hit.\n
+Use **left click** to attack a die. The attack will be different depending on the side you hit.\n
 ![How to attack](/GameImages/grabTutorial.gif)\n
 ![How to attack](/GameImages/hookTutorial.gif)\n
 ![How to attack](/GameImages/shotgunTutorial.gif)\n
 ![How to attack](/GameImages/dynamiteTutorial.gif)\n
-As time passes, the background will turn red. If it turns all the way red, you'll die. Kill dice to stop that!\n
+As time goes on, the background color changes. When it becomes red, you die!
+Push dice off the board to score points and delay your death.\n
 ![How to die](/GameImages/newKillTutorial.gif)\n
 ### Play the Game
 `;

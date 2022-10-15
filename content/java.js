@@ -1,7 +1,8 @@
 const title = "Java";
 
 const description = `
-I have taken more than 2 years of class in Java. Plus, I used it to compete in many competetive coding competitions, as well as for many personal projects.
+I have taken 2 years of high school class in Java.
+I also use it often for personal projects and competetive coding.
 `;
 
 const grayImage = '/ProjectIcons/javagray.jpg';

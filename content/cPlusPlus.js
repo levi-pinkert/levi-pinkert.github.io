@@ -1,7 +1,7 @@
 const title = "C++";
 
 const description = `
-I have taken 2 semesters of class in C++ (CSCI 103: Intro to Programming and CSCI 104: Data Structures and Algorithms), and I earned an A in both. Plus, I'm currently taking ITP 380: Video Game Programming (in C++).
+I have taken 2 semesters of class in C++, and I earned an A in both. Plus, I am currently enrolled in "ITP 380: Video Game Programming," which uses C++.
 `;
 
 const grayImage = '/ProjectIcons/cppgray.jpg';

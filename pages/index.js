@@ -24,7 +24,12 @@ import { firebaseInfo } from '../content/firebase'
 import { codeWarsInfo } from '../content/codewars'
 import { codeQuestInfo } from '../content/codequest'
 
-const headerParagraph = "Hello! I'm a second-year student at the University of Southern California studying computer science and game development. Over the summer, I worked for a startup as a web developer. In my free time, I design and engineer video games. Scroll down to see more!";
+const headerParagraph = `
+Hello! I'm a second-year student at the University of Southern California studying computer science and game development.
+Over the summer, I worked as a web developer for a startup.
+In my free time, I design and build video games.
+Scroll down to learn more!
+`;
 
 const ModalContext = createContext();
 export const useModal = () => { return useContext(ModalContext) };
@@ -57,7 +62,7 @@ export default function Home() {
                 <Typewriter
                   options={{
                     loop: false,
-                    delay: 10,
+                    delay: 20,
                   }}
                   onInit={(typewriter) => typewriter.pauseFor(3000).typeString(headerParagraph).start()}
                 />

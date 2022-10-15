@@ -1,7 +1,7 @@
-const title = "JavaScript & TypeScript";
+const title = "TypeScript";
 
 const description = `
-At my startup job, I wrote lots of complex TypeScript code to interpret glucose data. I also wrote a Node.JS backend with authentication and integration with many 3rd party apis.
+I used TypeScript extensively for both frontend and backend at my startup job.
 `;
 
 const grayImage = '/ProjectIcons/tsgray.jpg';
