@@ -1,0 +1,106 @@
+
+
+.contentWrapper {
+  display: flex;
+  flex-direction: row;
+  width: min(40rem, 90vw);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  flex: 1;
+  position: relative;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  flex: 2;
+}
+
+.textWrapper h1 {
+  margin: 0px;
+  margin-bottom: 0rem;
+  font-family: 'BluuNext';
+  font-style: normal;
+  font-variant-caps: small-caps;
+  font-size: 50px;
+}
+
+.modal {
+  width: min(50rem, 90vw);
+  max-height: 90vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-style:double;
+  border-color: black;
+  border-width: 5px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  z-index: 50;
+}
+
+.scroll {
+  overflow-y: auto;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18pt;
+  padding-bottom: 3rem;
+}
+
+.exitButton {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  z-index: 60;
+}
+
+.modal h1 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'BluuNext';
+  font-style: normal;
+  font-variant-caps: small-caps;
+  font-size: 50px;
+}
+
+.modalFade {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 49;
+  background-color: white;
+  opacity: .5;
+}
+
+
+.scroll img {
+  max-width: 90%;
+  border: double .25rem;
+}
+
+.scroll a {
+  color: black;
+  transition: .2s;
+  
+  text-decoration: underline;
+}
+
+.scroll a:hover {
+  color:darkturquoise;
+}

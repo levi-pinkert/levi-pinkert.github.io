@@ -1,0 +1,14 @@
+
+.cursor {
+    --size: 2rem;
+    width: var(--size);
+    height: var(--size);
+    background-color: white;
+    border-radius: calc(var(--size) / 2);
+    position: fixed;
+    left: calc(var(--size) / -2);
+    top: calc(var(--size) / -2);
+    pointer-events: none;
+    z-index: 60;
+    mix-blend-mode:difference;
+}

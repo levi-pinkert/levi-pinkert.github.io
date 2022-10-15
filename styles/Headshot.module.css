@@ -1,0 +1,23 @@
+.headshotContainer {
+    position: relative;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.lowHeadshotContainer {
+    position: relative;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.headshotOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
