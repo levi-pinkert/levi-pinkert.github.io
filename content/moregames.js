@@ -13,7 +13,7 @@ The theme was "unhinged", so we made a game that not only involves hinges but is
 I programmed the gameplay and designed the levels, which paid off when the game won "Best Design".
 Play it in browser [here](https://williammccullen.itch.io/the-meatball-in-the-machine).
 ### Fractured Wasteland
-This game was unique because my sister, Ella Pinkert, its art.
+This game was unique because my sister, Ella Pinkert, drew its art.
 We made the game for GM48 #37 (Jan 2021), with the theme "Falling Apart".
 A Windows download is available [here](https://gm48.net/game/1799/fractured-wasteland).
 ### Trijam
