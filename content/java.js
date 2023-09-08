@@ -1,8 +1,7 @@
 const title = "Java";
 
 const description = `
-I have taken 2 years of high school class in Java.
-I also use it often for personal projects and competetive coding.
+I have used Java to build a WebSockets backend for a class project. I also use it for personal projects and competetive coding.
 `;
 
 const grayImage = '/ProjectIcons/javagray.jpg';

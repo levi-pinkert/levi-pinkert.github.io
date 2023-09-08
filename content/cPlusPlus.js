@@ -1,7 +1,7 @@
 const title = "C++";
 
 const description = `
-I have taken 2 semesters of class in C++, and I earned an A in both. Plus, I am currently enrolled in "ITP 380: Video Game Programming," which uses C++.
+I have copmleted 3 semesters of class in C++, earning all As. In ITP 380, I built a 3D game in C++ using only SDL.
 `;
 
 const grayImage = '/ProjectIcons/cppgray.jpg';

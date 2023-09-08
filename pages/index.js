@@ -23,10 +23,11 @@ import { reactInfo } from '../content/react'
 import { firebaseInfo } from '../content/firebase'
 import { codeWarsInfo } from '../content/codewars'
 import { codeQuestInfo } from '../content/codequest'
+import { idTechInfo } from '../content/idtech'
 
 const headerParagraph = `
-Hello! I'm a second-year student at the University of Southern California studying computer science and game development.
-Over the summer, I worked as a web developer for a startup.
+Hello! I'm a third-year student at the University of Southern California studying computer science and game development.
+Over the past two summers, I've taught a computer science summer camp and done web development for a startup.
 In my free time, I design and build video games.
 Scroll down to learn more!
 `;
@@ -59,20 +60,20 @@ export default function Home() {
               <Headshot />
               <div className={styles.bar} />
               <div className={styles.bioText}>
-                <Typewriter
+                {/*<Typewriter
                   options={{
                     loop: false,
                     delay: 20,
                   }}
                   onInit={(typewriter) => typewriter.pauseFor(3000).typeString(headerParagraph).start()}
-                />
+                />*/}
+                <p1>{headerParagraph}</p1>
               </div>
             </div>
           </div>
-          <Title text="Web Development" size="small" />
+          <Title text="Work Experience" size="small" />
+          <ProjectDisplay info={idTechInfo} />
           <ProjectDisplay info={stealthStartupInfo} />
-          <ProjectDisplay info={rplInfo} />
-          <ProjectDisplay info={portfolioInfo} />
           <Title text="Games" size="small" />
           <ProjectDisplay info={clumpInfo} />
           <ProjectDisplay info={doOrDieInfo} />

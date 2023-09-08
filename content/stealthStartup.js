@@ -1,7 +1,7 @@
-const title = "Stealth Startup";
+const title = "Body.AI";
 
 const description = `
-Over the summer, I worked as a solo full-stack developer for a health startup focused on type 2 diabetes.
+During the summer of 2022, I worked as a solo full-stack developer for a health startup focused on type 2 diabetes.
 I used React Native, NodeJS, and Firebase to develop a mobile and web application that analyzes continuous glucose data.
 `;
 

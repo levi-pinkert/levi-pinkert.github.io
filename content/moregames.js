@@ -8,7 +8,7 @@ const markdown = `
 Over the last 6 years, I've done more than 20 game jams!
 Here are some other favorites that are worth checking out.
 ### The Meatball in the Machine
-I made this game for USC's April Fools Game Jam 2022 with my friends Charlie Heatherly, [Will Farhat](https://willfarhat.com), and William McCullen.
+I made this game for USC's April Fools Game Jam 2022 with my friends Charlie Heatherly, [Abby Farhat](https://willfarhat.com), and William McCullen.
 The theme was "unhinged", so we made a game that not only involves hinges but is a little off the rails.
 I programmed the gameplay and designed the levels, which paid off when the game won "Best Design".
 Play it in browser [here](https://williammccullen.itch.io/the-meatball-in-the-machine).

@@ -4,8 +4,8 @@ import { useSpring, animated, easings } from 'react-spring'
 import { useRef, useEffect } from 'react'
 import { useModal } from '../pages';
 
-const revealHeadshot = "/cropheadshot.png";
-const baseHeadshot = "/cropheadshotgrayscale.png";
+const revealHeadshot = "/cropheadshot_small.png";
+const baseHeadshot = "/cropheadshotgrayscale_small.png";
 
 const Headshot = () => {
     const element = useRef();
